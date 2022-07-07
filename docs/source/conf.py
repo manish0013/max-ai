@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Max.ai'
+project = 'max'
 copyright = 'TBU'
 author = 'Manish M'
 
