@@ -1,8 +1,6 @@
 Quickstart
 ==========
 
-.. _quickstart:
-TBU
 
 maxairesources
 ==============
