@@ -1,9 +1,6 @@
-Welcome to MAX documentation!
+Welcome to MAX.ai documentation!
 ===================================
-I just made the documentation public
-MAX.AI provides a ready list of submodules you can use to build any complex use-cases
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Max.ai provides a ready list of utilities to create end to end ML pipelines and solve complex business problems using state of the art ML modules. Max.ai comes equipped with utilities to store, process and transform data, automated feature engineeriing and a host of ML models - Classification, Clustering, Regression, Time-series, NLP and much more. Check out the :doc:`Quickstart` section for jumping directly into a working example. You can refer to how to :ref:`Installation Guide` to install max.ai on your project.
 
 .. note::
 
