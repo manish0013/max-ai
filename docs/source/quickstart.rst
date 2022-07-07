@@ -266,17 +266,17 @@ Here is how you can use this utility in your workflow.
                         'labelType':'categorical'})
 
 
-# select features using the passed method
-fs.select_features(feature_df)
+  # select features using the passed method
+  fs.select_features(feature_df)
 
-#access the underlying spark feature selection method object
-fs.selector
+  #access the underlying spark feature selection method object
+  fs.selector
 
-# save the model
-fs.save('path')
+  # save the model
+  fs.save('path')
 
-# load the model
-fs.load('path')
+  # load the model
+  fs.load('path')
 
 
 
