@@ -14,5 +14,12 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Quickstart
+   Installation Guide
+   Tutorials & Examples
+   maxaifeaturization
+   maxaimarketplace
+   maxaimetadata
+   maxaimodel
+   maxairesources
+   
