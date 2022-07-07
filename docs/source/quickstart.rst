@@ -5,7 +5,7 @@ Quickstart
 maxairesources
 ==============
 
-Data checks
+datachecks
 ___________
 - This module is dedicated to perform quick checks on data.
 - `AnalysisBase` class is a base class in `analysis_base.py` file which should be inherited by all analysis class specific to use case / requirement.
