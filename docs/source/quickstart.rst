@@ -12,7 +12,7 @@ maxairesources
 - types of columns are identified based on column names as per feast output, or you can pass dictionary in below format
 - `SparkDataFrameAnalyser` class is used to analyse `pyspark` `dataframe` with numerical and categorical columns mainly.
 
-  ```python
+::
   from maxairesources.datachecks.dataframe_analysis_spark import SparkDataFrameAnalyser
   col_types = {
     "numerical_cols": [], # numerical columns
@@ -26,12 +26,12 @@ maxairesources
   report = analyser.generate_data_health_report() # generate report
   analyser.save_analysis_report(report) # saves in json file
   ``` 
-- Note: while running `generate_data_health_report` method, report will be prepared and all data health calculations / checkup results will be printed in two logging levels
+Note: while running `generate_data_health_report` method, report will be prepared and all data health calculations / checkup results will be printed in two logging levels
   1. logging.WARNING: shows that data is not aligned with given thresholds, appropriate transformation might required on dataset
   2. logging.INFO: shows information about specific checkup, no action required.
 
-- we can also provide `threshold` parameter value for checkups in following format
-  ```python
+We can also provide `threshold` parameter value for checkups in following format
+::
   thresholds = {
     "general": {"column_count": 5, "record_count": 10},
     "uni_variate": {
