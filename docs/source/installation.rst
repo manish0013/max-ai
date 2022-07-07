@@ -3,8 +3,6 @@ Installation Guide
 
 .. _installation:
 
-Installation
-------------
 
 To use maxai, first install it using pip:
 
